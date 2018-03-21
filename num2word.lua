@@ -80,7 +80,7 @@ function num2word(sum)
         local tripleUnit = ""
         local triple     = number % 1000
 
-        number     = math.floor(number / 1000)
+        number    = math.floor(number / 1000)
         triplePos = triplePos + 1
 
         if (triplePos > 5) then
